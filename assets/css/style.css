@@ -95,10 +95,10 @@ footer {
     background-color: orange;
 }
 
-/*Media query: Tablets and larger (768px and up)*/
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*Header*/
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -111,7 +111,7 @@ footer {
         display: flex;
     }
 
-    menu>li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -125,11 +125,16 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /*Main content*/
+    /* Main content */
     main {
-        /*Push main content down to accommodate larger header*/
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+}
 
-
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
