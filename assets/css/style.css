@@ -177,7 +177,7 @@ main {
     flex-basis: 200px;
     flex-grow: 1;
     /*Creates a grid of meetup times dives over the background image*/
-    border; 2px solid white;
+    border: 2px solid white;
 }
 
 #times h3 {
@@ -270,7 +270,6 @@ main {
 
     /*Large devices (1200px and up)*/
     @media screen and (min-width: 1200px) {
-
         #benefits {
             display: flex;
             flex-direction: row;
